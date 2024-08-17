@@ -1,6 +1,6 @@
 # nvim-config
 
-This is my NeoVim configuration.  
+This is my Neovim configuration.  
 Folder structure:  
 ```
 ├── README.md
@@ -29,11 +29,15 @@ The plugins are defined each in a seperate file, in the `plugins` directory.
   
 
 ## Plugins
-### telescope
+### Lazy
+[lazy.nvim](https://github.com/folke/lazy.nvim) is is a modern plugin manager for Neovim.  
+Commands:  
+`:Lazy ...`  
+  
+
+### Telescope
 [telescope.nvim](https://github.com/nvim-telescope/telescope.nvim) is a fuzzy finder.  
 Commands:  
-`:TS...`  
-  
 * `<leader>sh` - [S]earch [H]elp
 * `<leader>sk` - [S]earch [K]eymaps
 * `<leader>sf` - [S]earch [F]iles
@@ -44,4 +48,12 @@ Commands:
 * `<leader>sr` - [S]earch [R]esume
 * `<leader>s.` - [S]earch Recent Files ("." for repeat)
 * `<leader><leader>` - [ ] Find existing buffers
+  
+
+### Treesitter
+[nvim-treesitter](https://github.com/nvim-treesitter/nvim-treesitter) is a parser and syntax highlighter.  
+Commands:  
+`:TS...`  
+
+### Lsp
 
