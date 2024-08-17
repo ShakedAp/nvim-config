@@ -7,7 +7,7 @@ return {
 
             -- A list of parser names, or "all"
             ensure_installed = {
-                "vimdoc", "python", "cpp", "c", "lua", "bash"
+                "vimdoc", "python", "cpp", "c", "lua", "bash", "markdown"
             },
 
             -- Install parsers synchronously (only applied to `ensure_installed`)
@@ -42,7 +42,7 @@ return {
             },
         }
 
-	vim.treesitter.language.register('xml', { 'svg', 'xslt' })
+        vim.treesitter.language.register('xml', { 'svg', 'xslt' })
     end
 }
 
