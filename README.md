@@ -20,10 +20,10 @@ Folder structure:
 ```
   
 The configuration is defined in the `config` directory, as follows:  
-1. `init.lua` - loads all the relevant configuration files in order.  
-2. `remap.lua` - contains all the remaps.  
-3. `set.lua` - contains all the vim options sets.  
-4. `lazy_init.lua` - initializes the [lazy package manager](https://github.com/folke/lazy.nvim).  
+1. `init.lua` - loads all the relevant configuration files in order.
+2. `remap.lua` - contains all the remaps.
+3. `set.lua` - contains all the vim options sets.
+4. `lazy_init.lua` - initializes the [lazy package manager](https://github.com/folke/lazy.nvim).
   
 The plugins are defined each in a seperate file, in the `plugins` directory.  
   
@@ -33,6 +33,12 @@ The plugins are defined each in a seperate file, in the `plugins` directory.
 [lazy.nvim](https://github.com/folke/lazy.nvim) is is a modern plugin manager for Neovim.  
 Commands:  
 `:Lazy ...`  
+  
+
+### Treesitter
+[nvim-treesitter](https://github.com/nvim-treesitter/nvim-treesitter) is a parser and syntax highlighter.  
+Commands:  
+`:TS...`  
   
 
 ### Telescope
@@ -50,10 +56,23 @@ Commands:
 * `<leader><leader>` - [ ] Find existing buffers
   
 
-### Treesitter
-[nvim-treesitter](https://github.com/nvim-treesitter/nvim-treesitter) is a parser and syntax highlighter.  
-Commands:  
-`:TS...`  
-
 ### Lsp
+[lsp-zero.nvim](https://github.com/VonHeikemen/lsp-zero.nvim) is currently used to configure the Neovim LSP Client.  
+Plugins used:  
+* [mason.nvim](https://github.com/williamboman/mason.nvim) - LSP package manager.
+* [nvim-cmp](https://github.com/hrsh7th/nvim-cmp) - Autocomplition.
+* [nvim-lspconfig](https://github.com/neovim/nvim-lspconfig) - Configs for the Nvim LSP client.
+  
+Commands:  
+* `K` - hover
+* `gd` - [g]o [d]efinition
+* `gD` - [g]o [D]eclaration
+* `gi` - [g]o [i]mplementation
+* `go` - [g]o type_definition
+* `gr` - [g]o [r]eferences
+* `gs` - [g]o [s]ignature_help
+* `<F2>` - rename
+* `<F3>` - format
+* `<F4>` - code_action
+  
 
