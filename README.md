@@ -32,5 +32,16 @@ The plugins are defined each in a seperate file, in the `plugins` directory.
 ### telescope
 [telescope.nvim](https://github.com/nvim-telescope/telescope.nvim) is a fuzzy finder.  
 Commands:  
-
+`:TS...`  
+  
+* `<leader>sh` - [S]earch [H]elp
+* `<leader>sk` - [S]earch [K]eymaps
+* `<leader>sf` - [S]earch [F]iles
+* `<leader>ss` - [S]earch [S]elect Telescope
+* `<leader>sw` - [S]earch current [W]ord
+* `<leader>sg` - [S]earch by [G]rep
+* `<leader>sd` - [S]earch [D]iagnostics
+* `<leader>sr` - [S]earch [R]esume
+* `<leader>s.` - [S]earch Recent Files ("." for repeat)
+* `<leader><leader>` - [ ] Find existing buffers
 
