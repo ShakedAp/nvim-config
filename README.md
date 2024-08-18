@@ -28,6 +28,13 @@ The configuration is defined in the `config` directory, as follows:
 The plugins are defined each in a seperate file, in the `plugins` directory.  
   
 
+## Installation
+1. `git clone git@github.com:ShakedAp/nvim-config.git "${XDG_CONFIG_HOME:-$HOME/.config}"/nvim`  
+2. `sudo apt install git make unzip gcc ripgrep fd-find`  
+3. `sudo apt install nvim`  
+4. language specific dependencies. For example: `python3-venv`  
+  
+
 ## Plugins
 ### Lazy
 [lazy.nvim](https://github.com/folke/lazy.nvim) is is a modern plugin manager for Neovim.  
