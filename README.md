@@ -8,6 +8,7 @@ Folder structure:
 ├── lazy-lock.json
 └── lua
     ├── config
+    │   ├── commands.lua
     │   ├── init.lua
     │   ├── lazy_init.lua
     │   ├── remap.lua
@@ -24,6 +25,7 @@ The configuration is defined in the `config` directory, as follows:
 2. `remap.lua` - contains all the remaps.
 3. `set.lua` - contains all the vim options sets.
 4. `lazy_init.lua` - initializes the [lazy package manager](https://github.com/folke/lazy.nvim).
+5. `commands.lua` - contains commands and auto commands.
   
 The plugins are defined each in a seperate file, in the `plugins` directory.  
   
