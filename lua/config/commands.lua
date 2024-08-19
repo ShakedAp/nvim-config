@@ -7,3 +7,6 @@ vim.api.nvim_create_autocmd('TextYankPost', {
     end,
 })
 
+-- Quit with 'Q'
+vim.api.nvim_create_user_command('Q', 'quit', {})
+
